@@ -11,20 +11,20 @@
                     <img src="img/" alt="Барбершоп">
                 </div>
                 <nav class="main-navigation">
-                    <ul>
-                        <li>
+                    <ul class="main-menu">
+                        <li class="menu-item">
                             <a href="#">Информация</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Новости</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Прайс-лист</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Магазин</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
@@ -37,37 +37,41 @@
         <main class="container">
             <h1 class="title">Средства для ухода</h1>
             <div class="breadcrumbs">
-                <ul>
-                    <li>Главная</li>
-                    <li>Магазин</li>
-                    <li>Средства для ухода</li>
+                <ul class="breadcrumbs-ul">
+                    <li class="breadcrumbs-li">Главная</li>
+                    <li class="breadcrumbs-li">Магазин</li>
+                    <li class="breadcrumbs-li">Средства для ухода</li>
                 </ul>
             </div>
             <div class="sidebar">
                 <div class="filter">
-                    <h2 class="subtitle">Производители:</h2>
-                    <input type="checkbox" checked id="brand-1"/>
-                        <label for="brand-1">Baxter of california</label>
-                    <input type="checkbox" id="brand-2"/>
-                        <label for="brand-2">Mr natty</label>
-                    <input type="checkbox" checked id="brand-3"/>
-                        <label for="brand-3">Suavecito</label>
-                    <input type="checkbox" id="brand-4"/>
-                        <label for="brand-4">Malin+goetz</label>
-                    <input type="checkbox" id="brand-5"/>
-                        <label for="brand-5">Murray's</label>
-                    <input type="checkbox" checked id="brand-6"/>
-                        <label for="brand-6">American crew</label>
+                    <fieldset>
+                        <legend class="subtitle">Производители:</legend>
+                        <input type="checkbox" checked id="brand-1"/>
+                            <label for="brand-1">Baxter of california</label>
+                        <input type="checkbox" id="brand-2"/>
+                            <label for="brand-2">Mr natty</label>
+                        <input type="checkbox" checked id="brand-3"/>
+                            <label for="brand-3">Suavecito</label>
+                        <input type="checkbox" id="brand-4"/>
+                            <label for="brand-4">Malin+goetz</label>
+                        <input type="checkbox" id="brand-5"/>
+                            <label for="brand-5">Murray's</label>
+                        <input type="checkbox" checked id="brand-6"/>
+                            <label for="brand-6">American crew</label>
+                    </fieldset>
                 </div>
                 <div class="products">
-                    <h2 class="subtitle">Группы товаров:</h2>
-                    <input type="radio" name="radio" id="category-1"/>
-                        <label for="category-1">Бритвенные принадлежности</label>
-                    <input type="radio" checked name="radio" id="category-2"/>
-                        <label for="category-2">Средства для ухода</label>
-                    <input type="radio" name="radio" id="category-3"/>
-                        <label for="category-3">Аксессуары</label>
-                    <button class="btn" type="submit">Показать</button>
+                    <fieldset>
+                        <legend class="subtitle">Группы товаров:</legend>
+                        <input type="radio" name="radio" id="category-1"/>
+                            <label for="category-1">Бритвенные принадлежности</label>
+                        <input type="radio" checked name="radio" id="category-2"/>
+                            <label for="category-2">Средства для ухода</label>
+                        <input type="radio" name="radio" id="category-3"/>
+                            <label for="category-3">Аксессуары</label>
+                        <button class="btn" type="submit">Показать</button>
+                    </fieldset>
                 </div>
             </div>
             <div class="product-box">
