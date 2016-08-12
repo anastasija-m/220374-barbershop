@@ -1,0 +1,22 @@
+body {
+    font-size:14pt;
+    line-height:24pt;
+    color:#000000;
+    font-weight:bold;
+    font-family:'PT Sans Narrow', sans-serif;   
+}
+h1 {
+    font-size:30pt;
+    line-height:42pt;
+    color:#000000;
+    font-weight:bold;
+    font-family:'PT Sans Narrow', sans-serif;  
+    }
+
+h2 {
+    font-size:24pt;
+    line-height:30pt;
+    color:#000000;
+    font-weight:bold;
+    font-family:'PT Sans Narrow', sans-serif;  
+}
